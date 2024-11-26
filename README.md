@@ -21,6 +21,6 @@ c.	git log –oneline (This cmd shows a summary of the history of all the commit
 6.	checkout your branches
 a.	git branch -a
 7.	pick the branch to post on 
-a.	git checkout milestone
+a.	git checkout {YOUR DESIRED BRANCH}
 8.	git remote add origin https://github.com/AbrahamNdiwa/kUSH-cAKES.git
-9.	git push -u origin main
+9.	git push -u origin {YOUR DESIRED BRANCH}
