@@ -10,7 +10,7 @@ class HomePageController extends Controller
 {
         public function index()
     {
-        $products = Product::all()->load(['category','image', 'reviews.user']);
+        $products = Product::all()->load(['category','image', 'reviews.user']);/*adds images to the homepage*/
          return Inertia::render('Welcome', [
 //        'canLogin' => Route::has('login'),
 //        'canRegister' => Route::has('register'),
